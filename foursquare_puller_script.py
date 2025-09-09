@@ -44,7 +44,7 @@ FOURSQUARE_V2_API_BASE_URL = 'https://api.foursquare.com/v2'
 FOURSQUARE_PLACES_API_BASE_URL = 'https://places-api.foursquare.com'
 
 # API Versions and settings
-API_V2_VERSION = '20231010'
+API_V2_VERSION = '20250617'
 PLACES_API_VERSION = '2025-06-17' # As per docs
 CHECKINS_LIMIT = 200
 REQUEST_DELAY = 1.0
