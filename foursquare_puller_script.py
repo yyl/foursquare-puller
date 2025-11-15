@@ -264,7 +264,7 @@ def fetch_place_details(service_key: str, place_fsq_id: str, stats: PullStats) -
         'Accept': 'application/json',
         'X-Places-Api-Version': PLACES_API_VERSION
     }
-    fields = "fsq_place_id,name,latitude,longitude,categories,location,website,tel,email,price,rating"
+    fields = "fsq_place_id,name,latitude,longitude,categories,location,website,tel,email"
     params = {'fields': fields}
     url = f"{FOURSQUARE_PLACES_API_BASE_URL}/places/{place_fsq_id}"
     logging.getLogger('foursquare_puller').info(f"Fetching details for place: {place_fsq_id}")
